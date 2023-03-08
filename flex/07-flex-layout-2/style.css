@@ -11,6 +11,10 @@ body {
   font-size: 40px;
 }
 
+.nav {
+  display: flex;
+  gap: 15px;
+}
 .footer {
   height: 72px;
   background: #eee;
@@ -18,20 +22,36 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
+  margin: 15px;
 }
 
+.section {
+  display: flex;
+  gap: 10px;
+  flex-wrap: wrap;
+}
 .sidebar {
   width: 300px;
   background: royalblue;
   display: flex;
   flex-direction: column;
+  flex-wrap: wrap;
 }
 
 .card {
   border: 1px solid #eee;
   box-shadow: 2px 4px 16px rgba(0,0,0,.06);
   border-radius: 4px;
+  width: 350px;
+  height: 380px;
 }
 ul {
   list-style-type: none;
+}
+a {
+  text-decoration: none;
+  color: white;
+}
+li {
+  padding: 10px;
 }
